@@ -11,7 +11,7 @@
 - **HTML**: Website structure and semantic elements for accessibility.
 - **CSS**: Styling and visual effects.
 - **SCSS**: More flexible and organized styling with variables and nesting.
-- **Responsive Design**: The site adapts to different screen sizes (mobile, tablet, desktop).
+- **Responsive Design**: The site will **will** adapt to different screen sizes (mobile, tablet, desktop).
 
 ---
 
