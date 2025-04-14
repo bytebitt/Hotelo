@@ -5,6 +5,7 @@ body {
 .container {
     max-width: 1280px;
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
 }
 
@@ -56,6 +57,89 @@ body {
                 font-size: 14px;
                 text-decoration: none;
             }
+        }
+    }
+}
+
+.best {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    .best__headline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .best__text {
+            h1 {
+                font-size: 60px;
+                font-weight: 600;
+                line-height: 80px;
+            }
+            p {
+                color: #555555;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+            }
+        }
+        .best__data {
+            align-items: flex-end;
+            display: flex;
+            border-radius: 20px;
+            width: 500px;
+            height: 252px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            box-shadow: 0px 22px 38px 0px #0022130A;
+            .best__date,.best__guests {
+                background-color: #FAFAFA;
+                width: 218px;
+                height: 56px;
+                display: flex;
+                gap: 15px;
+                
+                img {
+                    width: 24px;
+                    height: 24px;
+                    padding: 15px 0;
+                }
+            }
+            .best__map {
+                display: flex;
+                width: 480px;
+                gap: 15px;
+                background-color: #FAFAFA;
+                img {
+                    width: 34px;
+                    height: 34px;
+                    padding: 12px 0;
+                }
+                .best__search {
+                    background-color: #3771C8;
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 8px;
+                    margin-left:  auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .best__images {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        position: relative;
+        p {
+            position: absolute;
+            color: white;
+            font-weight: 600;
+            font-size: 48px;
+            bottom: 0;
+            left: 180px;
         }
     }
 }
