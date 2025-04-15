@@ -259,6 +259,7 @@ body {
 }
 
 .quality {
+    margin-top: 100px;
     .quality__headline {
         .quality__title {
             font-weight: 600;
@@ -308,7 +309,7 @@ body {
                 color: #555555;
             }
             .quality__variants-price {
-                color: rgb(67, 67, 208);
+                color: #3771C8;
                 font-weight: 600;
                 font-size: 24px;
                 span {
@@ -318,7 +319,7 @@ body {
                 }
             }
             .quality__variants-details {
-                background-color: rgb(67, 67, 208);
+                background-color: #3771C8;
                 width: 77px;
                 height: 33px;
                 display: flex;
@@ -336,3 +337,57 @@ body {
     }
 }
 
+.subscribe {
+    margin-top: 150px;
+    background-color: #EAECEB;
+    height: 450px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    .subscribe__content {
+        padding: 0 74px;
+        .subscribe__title {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 50px;
+            color: #222222;
+        }
+        .subscribe__subtitle {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #555555;
+        }
+        .subscribe__email {
+            background-color: #FFFFFF;
+            border-radius: 50px;
+            width: 486px;
+            height: 56px;
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                color: #555555;
+                padding: 0 40px;
+            }
+            .subscribe__email-button {
+                background-color: #3771C8;
+                width: 140px;
+                height: 56px;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
