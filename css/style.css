@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.luxury .luxury__content .luxury__subtitle, .facilities-service .facilities-service__advantages .facilities-service__column .facilities-service__column-subtitle, .facilities-service .facilities-service__subtitle {
+.quality .quality__headline .quality__subtitle, .luxury .luxury__content .luxury__subtitle, .facilities-service .facilities-service__advantages .facilities-service__column .facilities-service__column-subtitle, .facilities-service .facilities-service__subtitle {
   font-weight: 400;
   font-size: 16px;
   color: #666666;
@@ -213,4 +213,105 @@ body {
   justify-content: space-around;
   margin-top: 100px;
   align-items: center;
+}
+
+.nazmuel {
+  margin-top: 100px;
+  display: flex;
+}
+.nazmuel .nazmuel__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F9D15C;
+  width: 50%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.nazmuel .nazmuel__content .nazmuel__name {
+  color: #555555;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.nazmuel .nazmuel__content .nazmuel__title p {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  font-style: italic;
+  color: #222222;
+}
+
+.quality .quality__headline .quality__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+.quality .quality__headline .quality__subtitle {
+  color: #555555;
+}
+.quality .quality__headline .quality__stars {
+  display: flex;
+  gap: 50px;
+}
+.quality .quality__headline .quality__stars a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #555555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quality .quality__headline .quality__stars .quality__start--choosen {
+  border: 1px solid #000;
+}
+.quality .quality__variants {
+  display: flex;
+  justify-content: space-between;
+}
+.quality .quality__variants .quality__column {
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+.quality .quality__variants .quality__column .quality__variants-title p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.quality .quality__variants .quality__column .quality__variants-subtitle p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+}
+.quality .quality__variants .quality__column .quality__variants-price {
+  color: rgb(67, 67, 208);
+  font-weight: 600;
+  font-size: 24px;
+}
+.quality .quality__variants .quality__column .quality__variants-price span {
+  color: #666666;
+  font-weight: 400;
+  font-size: 16px;
+}
+.quality .quality__variants .quality__column .quality__variants-details {
+  background-color: rgb(67, 67, 208);
+  width: 77px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.quality .quality__variants .quality__column .quality__variants-details a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

@@ -229,3 +229,110 @@ body {
     margin-top: 100px;
     align-items: center;
 }
+
+.nazmuel {
+    margin-top: 100px;
+    display: flex;
+    .nazmuel__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #F9D15C;
+        width: 50%;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        .nazmuel__name {
+            color: #555555;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        .nazmuel__title p {
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 36px;
+            font-style: italic;
+            color: #222222;
+        }
+    }
+}
+
+.quality {
+    .quality__headline {
+        .quality__title {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 60px;
+        }
+        .quality__subtitle {
+            @extend %substyle;
+            color: #555555;
+        }
+        .quality__stars {
+            display: flex;
+            gap: 50px;
+            a {
+                display: block;
+                width: 100px;
+                height: 40px;
+                border: 1px solid #E8E8E8;
+                border-radius: 8px;
+                text-decoration: none;
+                color: #555555;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .quality__start--choosen {
+                border: 1px solid #000;
+            }
+        }
+    }
+    .quality__variants {
+        display: flex;
+        justify-content: space-between;
+        .quality__column {
+            border: 1px solid #E8E8E8;
+            border-radius: 8px;
+            margin-top: 50px;
+            .quality__variants-title p{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .quality__variants-subtitle p{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #555555;
+            }
+            .quality__variants-price {
+                color: rgb(67, 67, 208);
+                font-weight: 600;
+                font-size: 24px;
+                span {
+                    color: #666666;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+            .quality__variants-details {
+                background-color: rgb(67, 67, 208);
+                width: 77px;
+                height: 33px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 4px;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
