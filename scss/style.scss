@@ -367,11 +367,15 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            p {
+            .subscribe__email-enter{
                 font-weight: 400;
                 font-size: 14px;
                 color: #555555;
                 padding: 0 40px;
+                input {
+                    border: none;
+                    outline: none;
+                }
             }
             .subscribe__email-button {
                 background-color: #3771C8;
