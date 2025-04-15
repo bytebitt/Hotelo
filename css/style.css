@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.facilities-service .facilities-service__advantages .facilities-service__column .facilities-service__column-subtitle, .facilities-service .facilities-service__subtitle {
+.luxury .luxury__content .luxury__subtitle, .facilities-service .facilities-service__advantages .facilities-service__column .facilities-service__column-subtitle, .facilities-service .facilities-service__subtitle {
   font-weight: 400;
   font-size: 16px;
   color: #666666;
@@ -166,4 +166,44 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
+}
+.luxury {
+  display: flex;
+  gap: 50px;
+  margin-top: 150px;
+}
+.luxury .luxury__content {
+  margin-top: -22px;
+}
+.luxury .luxury__content .luxury__title {
+  font-weight: 600;
+  font-size: 40px;
+}
+.luxury .luxury__content .luxury__statistic {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.luxury .luxury__content .luxury__statistic .luxury__number {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 46px;
+}
+.luxury .luxury__content .luxury__button {
+  margin-top: 50px;
+  background-color: #3771C8;
+  width: 167px;
+  height: 56px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.luxury .luxury__content .luxury__button a {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
