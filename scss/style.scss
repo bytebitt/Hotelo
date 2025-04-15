@@ -222,3 +222,10 @@ body {
         }
     }
 }
+
+.companies {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
