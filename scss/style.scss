@@ -395,3 +395,43 @@ body {
         }
     }
 }
+
+
+footer {
+    margin-top: 100px;
+    .footer__container {
+        max-width: 1062px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        .footer__social {
+            .footer__logo {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                p {
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+            .footer__description {
+                @extend %substyle;
+                color: #555;
+            }
+            .footer__icons {
+                margin-top: 20px;
+                display: flex;
+                gap: 30px;
+            }
+        }
+        .footer__info {
+            display: flex;
+            gap: 100px;
+        }
+        .footer__column-title {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+}

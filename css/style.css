@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.quality .quality__headline .quality__subtitle, .luxury .luxury__content .luxury__subtitle, .facilities-service .facilities-service__advantages .facilities-service__column .facilities-service__column-subtitle, .facilities-service .facilities-service__subtitle {
+footer .footer__container .footer__social .footer__description, .quality .quality__headline .quality__subtitle, .luxury .luxury__content .luxury__subtitle, .facilities-service .facilities-service__advantages .facilities-service__column .facilities-service__column-subtitle, .facilities-service .facilities-service__subtitle {
   font-weight: 400;
   font-size: 16px;
   color: #666666;
@@ -376,4 +376,63 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
+}
+
+footer {
+  margin-top: 100px;
+}
+footer .footer__container {
+  max-width: 1062px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+footer .footer__container .footer__social .footer__logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+footer .footer__container .footer__social .footer__logo p {
+  font-weight: 600;
+  font-size: 16px;
+}
+footer .footer__container .footer__social .footer__description {
+  color: #555;
+}
+footer .footer__container .footer__social .footer__icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+footer .footer__container .footer__info {
+  display: flex;
+  gap: 100px;
+}
+footer .footer__container .footer__column-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 40px;
+    text-align: center;
+  }
+  .footer__logo {
+    justify-content: center;
+  }
+  .footer__icons {
+    justify-content: center;
+  }
+  .footer__info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
