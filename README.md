@@ -2,8 +2,6 @@
 
 **Hotelo** is a hotel booking website created as a project to practice and improve skills in **HTML**, **CSS**, and **SCSS**. The website features a responsive design and demonstrates key principles of modern web development.
 
-> ⚠️ **PROJECT IS CURRENTLY UNDER DEVELOPMENT AND INCOMPLETE** ⚠️
-
 ---
 
 ## 💻 Technologies Used
